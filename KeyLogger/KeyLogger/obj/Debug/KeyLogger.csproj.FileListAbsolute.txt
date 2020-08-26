@@ -5,3 +5,10 @@ C:\Users\claud\Desktop\Programmazione\C#\csharp-keylogger\KeyLogger\KeyLogger\ob
 C:\Users\claud\Desktop\Programmazione\C#\csharp-keylogger\KeyLogger\KeyLogger\obj\Debug\KeyLogger.csproj.CoreCompileInputs.cache
 C:\Users\claud\Desktop\Programmazione\C#\csharp-keylogger\KeyLogger\KeyLogger\obj\Debug\KeyLogger.exe
 C:\Users\claud\Desktop\Programmazione\C#\csharp-keylogger\KeyLogger\KeyLogger\obj\Debug\KeyLogger.pdb
+C:\Users\claud\Desktop\Programmazione\C#\Keylogger_Claudio\KeyLogger\KeyLogger\obj\Debug\KeyLogger.csprojAssemblyReference.cache
+C:\Users\claud\Desktop\Programmazione\C#\Keylogger_Claudio\KeyLogger\KeyLogger\obj\Debug\KeyLogger.csproj.CoreCompileInputs.cache
+C:\Users\claud\Desktop\Programmazione\C#\Keylogger_Claudio\KeyLogger\KeyLogger\obj\Debug\KeyLogger.exe
+C:\Users\claud\Desktop\Programmazione\C#\Keylogger_Claudio\KeyLogger\KeyLogger\obj\Debug\KeyLogger.pdb
+C:\Users\claud\Desktop\Programmazione\C#\Keylogger_Claudio\KeyLogger\KeyLogger\bin\Debug\KeyLogger.exe.config
+C:\Users\claud\Desktop\Programmazione\C#\Keylogger_Claudio\KeyLogger\KeyLogger\bin\Debug\KeyLogger.exe
+C:\Users\claud\Desktop\Programmazione\C#\Keylogger_Claudio\KeyLogger\KeyLogger\bin\Debug\KeyLogger.pdb
